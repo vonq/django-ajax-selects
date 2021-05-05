@@ -20,11 +20,11 @@
   }
 
   if (not(w.jQuery)) {
-    loadJS('jquery.min.js');
+    loadJS('/static/ajax_select/js/jquery.min.js');
   }
 
   if (not(w.jQuery) || not(w.jQuery.ui) || not(w.jQuery.ui.autocomplete)) {
-    loadJS('jquery-ui.min.js');
-    loadCSS('../css/jquery-ui.css');
+    loadJS('/static/ajax_select/js/jquery-ui.min.js');
+    loadCSS('/static/ajax_select/css/jquery-ui.min.css');
   }
 })(window);
