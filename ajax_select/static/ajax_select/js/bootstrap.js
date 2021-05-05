@@ -20,11 +20,11 @@
   }
 
   if (not(w.jQuery)) {
-    loadJS('//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js');
+    loadJS('jquery.min.js');
   }
 
   if (not(w.jQuery) || not(w.jQuery.ui) || not(w.jQuery.ui.autocomplete)) {
-    loadJS('//code.jquery.com/ui/1.12.1/jquery-ui.js');
-    loadCSS('//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css');
+    loadJS('jquery-ui.min.js');
+    loadCSS('../css/jquery-ui.css');
   }
 })(window);
